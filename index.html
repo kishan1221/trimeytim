@@ -1,1 +1,286 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Trimey Tim
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900">
+  <!-- Header -->
+  
+  <header class="border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <!-- Logo Section -->
+      <div class="flex items-center space-x-2">
+        <div class="text-[#c43a0f] text-2xl font-extrabold leading-none select-none">!</div>
+        <div class="font-semibold text-sm tracking-widest select-none">
+          <a href="../index.html">TRIMEY TIM</a>
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex space-x-8 text-sm font-normal text-gray-700">
+        <a class="hover:text-gray-900" href="pages/about.html">About</a>
+        <a class="hover:text-gray-900" href="pages/contact.html">Contact</a>
+        <a class="hover:text-gray-900" href="pages/services.html">Services</a>
+        <a class="hover:text-gray-900" href="pages/shop.html">Shop</a>
+      </nav>
+
+      <!-- Icons + Mobile Menu Button -->
+      <div class="flex items-center space-x-6 text-gray-700 text-lg md:space-x-6">
+        <!-- Mobile Menu Button (Hamburger) -->
+        <button id="menu-toggle" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+
+        <!-- Search & Cart -->
+        <button aria-label="Search" class="hover:text-gray-900 hidden md:block">
+          <i class="fas fa-search"></i>
+        </button>
+        <button aria-label="Cart" class="hover:text-gray-900 hidden md:block">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 text-sm text-gray-700">
+      <a class="block hover:text-gray-900" href="pages/about.html">About</a>
+      <a class="block hover:text-gray-900" href="pages/contact.html">Contact</a>
+      <a class="block hover:text-gray-900" href="pages/services.html">Services</a>
+      <a class="block hover:text-gray-900" href="pages/shop.html">Shop</a>
+      <div class="flex space-x-4 pt-2">
+        <button aria-label="Search" class="hover:text-gray-900">
+          <i class="fas fa-search"></i>
+        </button>
+        <button aria-label="Cart" class="hover:text-gray-900">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16">
+   <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight max-w-3xl">
+    PRECISION GROOMING TOOLS FOR EVERYDAY PERFECTION
+   </h1>
+   <p class="mt-3 max-w-2xl text-xs sm:text-sm text-gray-700 font-light">
+    Discover superior trimmers designed to deliver flawless grooming results. At Trimey Tim, we combine quality craftsmanship with user-friendly features to help you maintain your style with ease.
+   </p>
+   <button class="mt-6 bg-[#c43a0f] text-white text-xs sm:text-sm font-semibold px-5 py-2 rounded-sm hover:bg-[#a6350c] transition" type="button">
+    Shop Now
+   </button>
+  </section>
+  <!-- Image with starburst -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+   <img alt="Close-up image of three precision grooming trimmers with black and red accents on a light surface" class="w-full h-auto object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/307e9a57-e058-4a0b-399f-4d30739a0700.jpg" width="1200"/>
+   <img alt="Decorative starburst shape in dark orange" class="absolute bottom-0 right-6 w-20 h-20 sm:w-24 sm:h-24" height="80" src="https://storage.googleapis.com/a1aa/image/abb676fa-656d-4a20-5ccd-5b2809c2dd89.jpg" style="clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)" width="80"/>
+  </section>
+  <!-- Experience Section -->
+  <section class="bg-gray-100 py-12">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+     <div class="max-w-xl">
+      <h2 class="text-lg sm:text-xl font-bold leading-tight">
+       EXPERIENCE PRECISION GROOMING EVERY TIME
+      </h2>
+      <p class="mt-1 text-xs sm:text-sm text-gray-700 font-light max-w-md">
+       Discover top-quality trimmers and exclusive cutters designed to simplify your grooming routine.
+      </p>
+     </div>
+     <button class="mt-6 md:mt-0 border border-gray-700 text-xs sm:text-sm font-normal px-4 py-1 rounded-sm hover:bg-gray-200 transition" type="button">
+      Browse All Trimmers
+     </button>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+     <!-- Product 1 -->
+     <div class="border border-gray-300 p-4 flex flex-col items-center">
+      <img alt="Compact hair clipper with multiple black comb attachments and charging cable on white background" class="mb-3 w-full h-auto object-contain" height="180" src="https://storage.googleapis.com/a1aa/image/ccfcff15-d21c-4d5f-4103-52ca132a6a70.jpg" width="150"/>
+      <div class="text-xs font-bold uppercase text-center">
+       COMPACT HAIR CLIPPER
+      </div>
+      <div class="text-xs font-semibold mt-1 mb-3">
+       $24.99
+      </div>
+      <button class="border border-gray-700 text-xs font-normal px-4 py-1 rounded-sm hover:bg-gray-200 transition w-full" type="button">
+       Add to cart
+      </button>
+     </div>
+     <!-- Product 2 -->
+     <div class="border border-gray-300 p-4 flex flex-col items-center">
+      <img alt="Electric shaver with digital display, trimmer, and multiple black comb attachments on white background" class="mb-3 w-full h-auto object-contain" height="180" src="https://storage.googleapis.com/a1aa/image/5acad4cd-5bd4-4228-b0d6-5b18cb3ccc85.jpg" width="150"/>
+      <div class="text-xs font-bold uppercase text-center">
+       ELECTRIC SHAVER WITH TRIMMER
+      </div>
+      <div class="text-xs font-semibold mt-1 mb-3">
+       $59.99
+      </div>
+      <button class="border border-gray-700 text-xs font-normal px-4 py-1 rounded-sm hover:bg-gray-200 transition w-full" type="button">
+       Add to cart
+      </button>
+     </div>
+     <!-- Product 3 -->
+     <div class="border border-gray-300 p-4 flex flex-col items-center">
+      <img alt="Ergonomic hair trimmer with multiple black comb attachments, charging cable, and black carrying case on white background" class="mb-3 w-full h-auto object-contain" height="180" src="https://storage.googleapis.com/a1aa/image/73c11d48-e8de-43b3-beca-c2e5699035b8.jpg" width="150"/>
+      <div class="text-xs font-bold uppercase text-center">
+       ERGONOMIC HAIR TRIMMER
+      </div>
+      <div class="text-xs font-semibold mt-1 mb-3">
+       $41.99
+      </div>
+      <button class="border border-gray-700 text-xs font-normal px-4 py-1 rounded-sm hover:bg-gray-200 transition w-full" type="button">
+       Add to cart
+      </button>
+     </div>
+     <!-- Product 4 -->
+     <div class="border border-gray-300 p-4 flex flex-col items-center">
+      <img alt="Multi-purpose electric trimmer in black and purple with multiple attachments on white background" class="mb-3 w-full h-auto object-contain" height="180" src="https://storage.googleapis.com/a1aa/image/feba429c-6d50-4385-f89d-f372b928a9be.jpg" width="150"/>
+      <div class="text-xs font-bold uppercase text-center">
+       MULTI-PURPOSE ELECTRIC TRIMMER
+      </div>
+      <div class="text-xs font-semibold mt-1 mb-3">
+       $49.99
+      </div>
+      <button class="border border-gray-700 text-xs font-normal px-4 py-1 rounded-sm hover:bg-gray-200 transition w-full" type="button">
+       Add to cart
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Precision Trimmers Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+    <div>
+     <h2 class="text-2xl font-extrabold leading-tight max-w-md">
+      PRECISION TRIMMERS FOR EVERY GROOMING NEED
+     </h2>
+     <p class="mt-3 max-w-md text-xs sm:text-sm text-gray-700 font-light">
+      Explore our expertly crafted trimmers, blending durability and precision to deliver unmatched grooming results for all your maintenance demands.
+     </p>
+    </div>
+    <div class="space-y-6 max-w-md text-xs sm:text-sm text-gray-900 font-semibold">
+     <div>
+      <div class="font-bold">
+       ERGONOMIC DESIGN
+      </div>
+      <div class="font-normal text-gray-700 mt-1">
+       Comfortable grip ensures easy handling for smooth and accurate trimming sessions.
+      </div>
+     </div>
+     <div>
+      <div class="font-bold">
+       VERSATILE CUTTING OPTIONS
+      </div>
+      <div class="font-normal text-gray-700 mt-1">
+       Adjustable settings allow for tailored trimming lengths to suit any style or task.
+      </div>
+     </div>
+     <div>
+      <div class="font-bold">
+       LONG-LASTING BATTERY LIFE
+      </div>
+      <div class="font-normal text-gray-700 mt-1">
+       Extended use with quick charging keeps you ready for occasions on the go.
+      </div>
+     </div>
+     <div>
+      <div class="font-bold">
+       SHARP STAINLESS STEEL BLADES
+      </div>
+      <div class="font-normal text-gray-700 mt-1">
+       Durable blades maintain sharpness for clean, precise cuts every time.
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Premium Grooming Banner -->
+  <section aria-label="Premium grooming trimmers banner" class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+   <img alt="Close-up image of a modern architectural pattern with circular black discs creating a textured surface" class="w-full h-auto object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/ca18bd39-dc39-4ef9-abc8-ac902f16ddde.jpg" width="1200"/>
+   <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-white text-xl sm:text-2xl md:text-3xl font-extrabold leading-tight max-w-3xl">
+     PREMIUM GROOMING TRIMMERS YOU CAN TRUST
+    </h2>
+    <p class="text-white text-xs sm:text-sm font-light mt-2 max-w-2xl">
+     Unlock exclusive promotions and special savings on our top-rated trimmers.
+    </p>
+    <button class="mt-6 bg-[#c43a0f] text-white text-xs sm:text-sm font-semibold px-5 py-2 rounded-sm hover:bg-[#a6350c] transition" type="button">
+     Shop Now
+    </button>
+   </div>
+  </section>
+  <!-- Testimonial -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-20">
+   <p class="text-sm sm:text-base font-light mb-8">
+    Trimey Tim’s precision trimmers have transformed my grooming routine with flawless cuts every time.
+   </p>
+   <div class="flex flex-col items-center space-y-2">
+    <img alt="Portrait of Alex Morgan, professional groomer, smiling with short hair" class="rounded-full w-20 h-20 object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/b73181ba-b69a-453d-a020-41ed5942dd34.jpg" width="80"/>
+    <div class="text-xs font-bold uppercase">
+     ALEX MORGAN
+    </div>
+    <div class="text-xs font-light text-gray-700">
+     Professional Groomer
+    </div>
+   </div>
+  </section>
+  <!-- Set New Grooming Benchmarks Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <img alt="Three precision grooming trimmers with black and red accents and attachments on a light surface" class="w-full h-auto object-contain" height="400" src="https://storage.googleapis.com/a1aa/image/dea11d8c-75d0-4fd4-81cb-cd40b4e2950f.jpg" width="600"/>
+    <div>
+     <h2 class="text-2xl font-extrabold leading-tight max-w-md">
+      SET NEW GROOMING BENCHMARKS WITH TRIMEY TIM
+     </h2>
+     <p class="mt-3 max-w-md text-xs sm:text-sm text-gray-700 font-light">
+      Discover our comprehensive product range designed to deliver premium grooming tools tailored to your needs.
+     </p>
+     <button class="mt-6 bg-[#c43a0f] text-white text-xs sm:text-sm font-semibold px-5 py-2 rounded-sm hover:bg-[#a6350c] transition" type="button">
+      Learn More
+     </button>
+     <div class="mt-2 text-xs text-gray-700 font-light uppercase tracking-widest">
+      UPGRADE YOUR GROOMING ROUTINE NOW
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="border-t border-gray-200">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex justify-between items-center text-xs text-gray-700 font-semibold select-none">
+    <div class="flex items-center space-x-2 text-[#c43a0f] text-lg font-extrabold leading-none">
+     !
+    </div>
+    <div>
+     TRIMEY TIM
+    </div>
+    <div class="flex space-x-4">
+     <button aria-label="Search" class="hover:text-gray-900">
+      <i class="fas fa-search">
+      </i>
+     </button>
+     <button aria-label="Cart" class="hover:text-gray-900">
+      <i class="fas fa-shopping-cart">
+      </i>
+     </button>
+    </div>
+   </div>
+  </footer>
+ </body>
+
+ <script src="assets/script.js"></script>
+</html>
 
