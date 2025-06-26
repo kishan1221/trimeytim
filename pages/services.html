@@ -1,0 +1,231 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Trimey Tim Services
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Times New Roman', serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#f0f2f4] text-[#121212]">
+  <!-- Header -->
+
+  <header class="border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <!-- Logo Section -->
+      <div class="flex items-center space-x-2">
+        <div class="text-[#c43a0f] text-2xl font-extrabold leading-none select-none">!</div>
+        <div class="font-semibold text-sm tracking-widest select-none">
+          <a href="../index.html">TRIMEY TIM</a>
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex space-x-8 text-sm font-normal text-gray-700">
+        <a class="hover:text-gray-900" href="../pages/about.html">About</a>
+        <a class="hover:text-gray-900" href="../pages/contact.html">Contact</a>
+        <a class="hover:text-gray-900" href="../pages/services.html">Services</a>
+        <a class="hover:text-gray-900" href="../pages/shop.html">Shop</a>
+      </nav>
+
+      <!-- Icons + Mobile Menu Button -->
+      <div class="flex items-center space-x-6 text-gray-700 text-lg md:space-x-6">
+        <!-- Mobile Menu Button (Hamburger) -->
+        <button id="menu-toggle" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+
+        <!-- Search & Cart -->
+        <button aria-label="Search" class="hover:text-gray-900 hidden md:block">
+          <i class="fas fa-search"></i>
+        </button>
+        <button aria-label="Cart" class="hover:text-gray-900 hidden md:block">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 text-sm text-gray-700">
+      <a class="block hover:text-gray-900" href="../pages/about.html">About</a>
+      <a class="block hover:text-gray-900" href="../pages/contact.html">Contact</a>
+      <a class="block hover:text-gray-900" href="../pages/services.html">Services</a>
+      <a class="block hover:text-gray-900" href="../pages/shop.html">Shop</a>
+      <div class="flex space-x-4 pt-2">
+        <button aria-label="Search" class="hover:text-gray-900">
+          <i class="fas fa-search"></i>
+        </button>
+        <button aria-label="Cart" class="hover:text-gray-900">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Services Banner -->
+  <section class="bg-[#f0f2f4] border-b border-gray-300 max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between px-4 sm:px-6 lg:px-8 py-6">
+   <h2 class="font-bold text-base sm:text-lg tracking-wide text-[#121212]">
+    SERVICES
+   </h2>
+   <img alt="Three electric trimmers with black and red details on a white surface" class="mt-4 sm:mt-0 sm:w-[320px] sm:h-[80px] object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/648c280e-25db-4175-9190-5e1e92c57b4d.jpg" width="320"/>
+  </section>
+  <!-- First Content Section -->
+  <section class="bg-[#f0f2f4] border-b border-gray-300 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+   <h1 class="font-extrabold text-3xl sm:text-4xl leading-tight max-w-4xl text-[#121212]">
+    YOUR TRUSTED SOURCE FOR PREMIUM TRIMMERS
+   </h1>
+   <p class="mt-2 max-w-3xl text-xs sm:text-sm text-[#121212] font-normal">
+    Explore our diverse range of grooming solutions, committed to quality
+      and customer delight.
+   </p>
+   <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl text-[#121212]">
+    <div class="border border-[#121212] p-5 flex flex-col justify-start max-w-xs">
+     <h3 class="font-bold text-xs leading-5 mb-2">
+      PRECISION BEARD TRIMMERS
+     </h3>
+     <p class="text-xs leading-5 font-normal">
+      Engineered to help you achieve flawless grooming with case and
+          precision.
+     </p>
+    </div>
+    <div class="border border-[#121212] p-5 flex flex-col justify-start max-w-xs">
+     <h3 class="font-bold text-xs leading-5 mb-2">
+      PROFESSIONAL HAIR CLIPPERS
+     </h3>
+     <p class="text-xs leading-5 font-normal">
+      Customizable tools designed to meet your styling and maintenance
+          needs.
+     </p>
+    </div>
+    <div class="border border-[#121212] p-5 flex flex-col justify-start max-w-xs">
+     <h3 class="font-bold text-xs leading-5 mb-2">
+      MULTI-USE TRIMMING KITS
+     </h3>
+     <p class="text-xs leading-5 font-normal">
+      Complete kits offering versatility and reliable performance for all
+          grooming tasks.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Second Content Section -->
+  <section class="bg-white border-b border-gray-300 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+   <h2 class="font-extrabold text-3xl sm:text-4xl leading-tight max-w-4xl text-[#121212]">
+    PRECISION TRIMMING FOR EVERY STYLE
+   </h2>
+   <p class="mt-2 max-w-3xl text-xs sm:text-sm text-[#121212] font-normal">
+    Explore our top-quality trimmers designed for versatility and durability.
+   </p>
+   <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl text-[#121212]">
+    <div class="border border-[#121212] max-w-xs">
+     <img alt="Grooming tools including black and orange hair dryer, scissors, brush, and grooming jars on a white tray" class="w-full object-cover" height="180" src="https://storage.googleapis.com/a1aa/image/d1662b7f-d9bd-4b68-5b06-05d9c5b90935.jpg" width="320"/>
+     <div class="p-5">
+      <h3 class="font-bold text-xs leading-5 mb-2">
+       VERSATILE GROOMING OPTIONS
+      </h3>
+      <p class="text-xs leading-5 font-normal">
+       Adaptable trimmers suitable for face, hair, and body grooming needs.
+      </p>
+     </div>
+    </div>
+    <div class="border border-[#121212] max-w-xs flex flex-col sm:flex-row sm:items-center">
+     <img alt="Black electric hair clipper on a dark black background" class="w-full sm:w-40 object-cover" height="90" src="https://storage.googleapis.com/a1aa/image/c130ecca-37e0-42e4-5446-d4e811338a30.jpg" width="160"/>
+     <div class="p-5 max-w-xs">
+      <h3 class="font-bold text-xs leading-5 mb-2">
+       LONG-LASTING BATTERY LIFE
+      </h3>
+      <p class="text-xs leading-5 font-normal">
+       Enjoy uninterrupted grooming with powerful, rechargeable batteries.
+      </p>
+     </div>
+    </div>
+    <div class="grid grid-cols-2 gap-6 max-w-xs">
+     <div class="border border-[#121212] p-5 flex flex-col justify-center items-center text-center">
+      <svg aria-hidden="true" class="w-8 h-8 mb-3 text-[#d94a0a]" fill="none" stroke="#d94a0a" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2">
+       </circle>
+       <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+       </path>
+      </svg>
+      <h3 class="font-bold text-xs leading-5 mb-1">
+       ERGONOMIC DESIGN
+      </h3>
+      <p class="text-xs leading-5 font-normal">
+       Comfortable grip and lightweight build for easy handling.
+      </p>
+     </div>
+     <div class="border border-[#121212] p-5 flex flex-col justify-center items-center text-center">
+      <svg aria-hidden="true" class="w-8 h-8 mb-3 text-[#d94a0a]" fill="none" stroke="#d94a0a" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2">
+       </circle>
+       <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+       </path>
+      </svg>
+      <h3 class="font-bold text-xs leading-5 mb-1">
+       HIGH-PRECISION BLADES
+      </h3>
+      <p class="text-xs leading-5 font-normal">
+       Sharp, stainless steel blades ensure clean and accurate cuts.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Testimonial Section -->
+  <section class="bg-[#f0f2f4] border-b border-gray-300 py-12">
+   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-[#121212]">
+    <p class="text-xl sm:text-2xl font-normal leading-relaxed max-w-3xl mx-auto">
+     Trimey Tim’s precision trimmers have transformed my grooming routine with
+        unmatched quality and care.
+    </p>
+    <p class="mt-8 font-bold text-xs">
+     ALEX MORGAN
+    </p>
+    <p class="text-xs font-normal">
+     Professional Groomer
+    </p>
+   </div>
+  </section>
+
+
+  
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-300">
+   <div class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 text-[#121212]">
+    <div class="flex items-center space-x-2">
+     <img alt="Orange carrot icon" class="block" height="40" src="https://storage.googleapis.com/a1aa/image/52f044c7-0afa-4bb1-6675-d8275a4348a8.jpg" width="24"/>
+     <span class="font-bold text-sm tracking-widest">
+      TRIMEY TIM
+     </span>
+    </div>
+    <div class="flex space-x-6 text-sm">
+     <a aria-label="Instagram" class="hover:text-gray-700" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="Facebook" class="hover:text-gray-700" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Close" class="hover:text-gray-700" href="#">
+      <i class="fas fa-times">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+
+ <script src="../assets/script.js"></script>
+
+
+</html>
