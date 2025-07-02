@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Continue Now</title>
   <style>
-    /* Fullscreen centered background */
+    /* Centered background */
     body {
       margin: 0;
       height: 100vh;
@@ -16,25 +16,25 @@
       font-family: sans-serif;
     }
 
-    /* From Uiverse.io by adamgiebl */
+    /* Bigger Button */
     .cssbuttons-io-button {
       background: #a370f0;
       color: white;
       font-family: inherit;
-      padding: 0.35em;
-      padding-left: 1.2em;
-      font-size: 17px;
-      font-weight: 500;
-      border-radius: 0.9em;
+      padding: 0.5em;
+      padding-left: 1.5em;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 1em;
       border: none;
       letter-spacing: 0.05em;
       display: flex;
       align-items: center;
-      box-shadow: inset 0 0 1.6em -0.6em #714da6;
+      box-shadow: inset 0 0 1.8em -0.6em #714da6;
       overflow: hidden;
       position: relative;
-      height: 2.8em;
-      padding-right: 3.3em;
+      height: 3.4em;
+      padding-right: 3.8em;
       cursor: pointer;
     }
 
@@ -45,26 +45,27 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 2.2em;
-      width: 2.2em;
-      border-radius: 0.7em;
+      height: 2.6em;
+      width: 2.6em;
+      border-radius: 0.8em;
       box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
-      right: 0.3em;
+      right: 0.4em;
       transition: all 0.3s;
     }
 
     .cssbuttons-io-button:hover .icon {
-      width: calc(100% - 0.6em);
+      width: calc(100% - 0.8em);
     }
 
     .cssbuttons-io-button .icon svg {
-      width: 1.1em;
+      width: 1.3em;
+      height: 1.3em;
       transition: transform 0.3s;
       color: #7b52b9;
     }
 
     .cssbuttons-io-button:hover .icon svg {
-      transform: translateX(0.1em);
+      transform: translateX(0.15em);
     }
 
     .cssbuttons-io-button:active .icon {
@@ -74,7 +75,6 @@
 </head>
 <body>
 
-  <!-- Updated Button -->
   <button class="cssbuttons-io-button">
     CONTINUE NOW
     <div class="icon">
